@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "leiria-web-app-hello",
   "private": true,
   "scripts": {
     "build": "turbo run build",

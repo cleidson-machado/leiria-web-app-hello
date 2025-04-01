@@ -5,7 +5,7 @@ import Link from "next/link";
 export function HeaderCuston() {
   return (
     <header>
-      <GridContainer className="bg-turquoise-dark">
+      <GridContainer className="bg-turquoise-base">
         <div className="flex items-center justify-between py-6">
           {/* Left Section: Images */}
           <div className="flex items-center p-8 space-x-4 rounded">

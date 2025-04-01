@@ -5,18 +5,22 @@ import { GridContainer } from "../GridContainer";
 export function MainNavBar() {
   return (
     <GridContainer className="bg-turquoise-dark">
-      <div className="flex items-center justify-between py-14">
-        {/* Left Section: Links */}
-        <nav className="flex items-center justify-between p-8 space-x-4 rounded">
-          <Link href="/" className="text-white hover:underline">
-            Home
-          </Link>
+      <div className="flex items-center justify-between py-4">
+        {/* Left Section: Home Button */}
+        <div className="flex items-center space-x-4">
           <Image
             src="/space_image.png"
             width={30}
             height={40}
             alt="Logo Web Site Leiria"
           />
+          <Link href="/" className="text-white hover:underline">
+            Home
+          </Link>
+        </div>
+
+        {/* Left-Aligned Section: Other Links and Dropdowns */}
+        <nav className="flex items-center space-x-6">
           <Link href="/area-pessoal" className="text-white hover:underline">
             Área Pessoal
           </Link>
@@ -130,6 +134,12 @@ export function MainNavBar() {
               </Link>
             </div>
           </div>
+          <Image
+            src="/space_image.png"
+            width={15}
+            height={40}
+            alt="Logo Web Site Leiria"
+          />
         </nav>
       </div>
     </GridContainer>

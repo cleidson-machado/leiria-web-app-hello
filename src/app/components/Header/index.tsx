@@ -6,9 +6,9 @@ export function HeaderCuston() {
   return (
     <header>
       <GridContainer className="bg-turquoise-dark">
-        <div className="flex items-center py-6">
+        <div className="flex items-center justify-between py-6">
+          {/* Left Section: Images */}
           <div className="flex items-center p-8 space-x-4 rounded">
-            {/* Images */}
             <Image
               src="/space_image.png"
               width={30}
@@ -21,17 +21,29 @@ export function HeaderCuston() {
               height={40}
               alt="Logo Web Site Leiria"
             />
-
-            {/* Navigation Links */}
-            <nav className="flex ml-4 space-x-4">
-              <Link href="/" className="text-white hover:underline">
-                Home 1
-              </Link>
-              <Link href="/" className="text-white hover:underline">
-                Home 2
-              </Link>
-            </nav>
           </div>
+
+          {/* Right Section: Links */}
+          <nav className="flex space-x-4">
+            <Link href="/" className="text-white hover:underline">
+              Home 1
+            </Link>
+            <Image
+              src="/space_image.png"
+              width={30}
+              height={40}
+              alt="Logo Web Site Leiria"
+            />
+            <Link href="/" className="text-white hover:underline">
+              Home 2
+            </Link>
+            <Image
+              src="/space_image.png"
+              width={30}
+              height={40}
+              alt="Logo Web Site Leiria"
+            />
+          </nav>
         </div>
       </GridContainer>
     </header>

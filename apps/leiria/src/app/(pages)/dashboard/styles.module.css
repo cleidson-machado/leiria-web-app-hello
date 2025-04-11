@@ -1,0 +1,16 @@
+/* Adicione uma classe local para o estilo do parágrafo */
+.paragraph {
+  font-size: 16px;
+  color: #666;
+}
+
+.container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.heading {
+  color: #333;
+}

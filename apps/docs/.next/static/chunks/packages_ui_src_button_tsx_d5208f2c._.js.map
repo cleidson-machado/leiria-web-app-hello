@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/x_projects/leiria-web-app-hello/packages/ui/src/button.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { ReactNode } from \"react\";\r\n\r\ninterface ButtonProps {\r\n  children: ReactNode;\r\n  className?: string;\r\n  appName: string;\r\n}\r\n\r\nexport const Button = ({ children, className, appName }: ButtonProps) => {\r\n  return (\r\n    <button\r\n      className={className}\r\n      onClick={() => alert(`Hello from your ${appName} app!`)}\r\n    >\r\n      {children}\r\n    </button>\r\n  );\r\n};\r\n"],"names":[],"mappings":";;;;AAAA;;AAUO,MAAM,SAAS,CAAC,EAAE,QAAQ,EAAE,SAAS,EAAE,OAAO,EAAe;IAClE,qBACE,6LAAC;QACC,WAAW;QACX,SAAS,IAAM,MAAM,CAAC,gBAAgB,EAAE,QAAQ,KAAK,CAAC;kBAErD;;;;;;AAGP;KATa","debugId":null}}]
+}

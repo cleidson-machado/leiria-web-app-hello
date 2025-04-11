@@ -1,6 +1,7 @@
 import Image from "next/image";
-import { GridContainer } from "../GridContainer";
+
 import Link from "next/link";
+import { GridContainer } from "../../../../../../packages/ui";
 
 export function HeaderCuston() {
   return (

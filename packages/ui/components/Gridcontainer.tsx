@@ -1,3 +1,4 @@
+import React from "react";
 import { ReactNode } from "react";
 import { twMerge } from "tailwind-merge";
 
@@ -18,3 +19,6 @@ export function GridContainer({ children, className }: GridContainerProps) {
     </div>
   );
 }
+
+// Add a default export......
+export default GridContainer;

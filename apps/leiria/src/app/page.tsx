@@ -1,13 +1,11 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import { HeaderCuston } from "./components/Header";
-import { MainNavBar } from "./components/Navbar";
+"use client";
+
+import { Button } from "../../../../packages/ui/components/Button";
 
 export default function Home() {
   return (
-    <>
-      <HeaderCuston />
-      <MainNavBar />
-    </>
+    <div>
+      <Button className="custom-class">Click Me</Button>
+    </div>
   );
 }

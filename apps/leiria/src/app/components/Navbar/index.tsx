@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { GridContainer } from "../GridContainer";
+import { GridContainer } from "../../../../../../packages/ui/components/GridContainer";
 
 export function MainNavBar() {
   return (

@@ -10,7 +10,7 @@ export function GridContainer({ children, className }: GridContainerProps) {
   return (
     <div
       className={twMerge(
-        "w-full px-3 mx-auto max-w-customContainer px-3",
+        "w-full px-3 mx-auto max-w-customContainer",
         className
       )}
     >

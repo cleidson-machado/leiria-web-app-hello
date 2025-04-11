@@ -7,10 +7,10 @@ export interface ButtonProps {
   children: React.ReactNode;
 }
 
-export function Button({ className, children, ...props }: ButtonProps) {
+export const Button = ({ className, children, ...props }: ButtonProps) => {
   return (
     <AgoraButton className={twMerge("default-styles", className)} {...props}>
       {children}
     </AgoraButton>
   );
-}
+};

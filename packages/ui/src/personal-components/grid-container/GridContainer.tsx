@@ -1,3 +1,6 @@
+"use client";
+
+import React from "react";
 import { ReactNode } from "react";
 import { twMerge } from "tailwind-merge";
 
@@ -10,7 +13,7 @@ export function GridContainer({ children, className }: GridContainerProps) {
   return (
     <div
       className={twMerge(
-        "w-full px-3 mx-auto max-w-customContainer",
+        "w-full px-3 mx-auto max-w-customContainer px-3",
         className
       )}
     >
@@ -18,3 +21,6 @@ export function GridContainer({ children, className }: GridContainerProps) {
     </div>
   );
 }
+
+// Add a default export......
+export default GridContainer;

@@ -1,5 +1,5 @@
+import { GridContainer } from "@repo/ui";
 import Image from "next/image";
-import { GridContainer } from "../GridContainer";
 import Link from "next/link";
 
 export function HeaderCuston() {

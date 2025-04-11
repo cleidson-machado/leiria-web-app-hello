@@ -1,10 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
-import { GridContainer } from "@repo/ui";
+import { PersonalGridContainer } from "@repo/ui";
 
 export function MainNavBar() {
   return (
-    <GridContainer className="bg-turquoise-dark">
+    <PersonalGridContainer className="bg-turquoise-dark">
       <div className="flex items-center justify-between py-4">
         {/* Left Section: Home Button */}
         <div className="flex items-center space-x-4">
@@ -142,6 +142,6 @@ export function MainNavBar() {
           />
         </nav>
       </div>
-    </GridContainer>
+    </PersonalGridContainer>
   );
 }

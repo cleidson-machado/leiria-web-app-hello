@@ -4,12 +4,15 @@ import React from "react";
 import { ReactNode } from "react";
 import { twMerge } from "tailwind-merge";
 
-interface GridContainerProps {
+interface PersonalGridContainerProps {
   children: ReactNode;
   className?: string;
 }
 
-export function GridContainer({ children, className }: GridContainerProps) {
+export function PersonalGridContainer({
+  children,
+  className,
+}: PersonalGridContainerProps) {
   return (
     <div
       className={twMerge(
@@ -23,4 +26,4 @@ export function GridContainer({ children, className }: GridContainerProps) {
 }
 
 // Add a default export......
-export default GridContainer;
+export default PersonalGridContainer;

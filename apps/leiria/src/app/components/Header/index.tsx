@@ -1,12 +1,13 @@
-import Image from "next/image";
+"use client";
 
+import { GridContainer } from "@repo/ui";
+import Image from "next/image";
 import Link from "next/link";
-import { GridContainer } from "../../../../../../packages/ui";
 
 export function HeaderCuston() {
   return (
     <header>
-      <GridContainer className="bg-turquoise-base">
+      <GridContainer className="bg-turquoise-base" children={undefined}>
         <div className="flex items-center justify-between py-6">
           {/* Left Section: Images */}
           <div className="flex items-center p-8 space-x-4 rounded">

@@ -1,5 +1,5 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+"use client";
+
 import { HeaderCuston } from "@/app/components/Header";
 import { MainNavBar } from "@/app/components/Navbar";
 

@@ -1,10 +1,12 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
-import { GridContainer } from "../../../../../../packages/ui/components/GridContainer";
+import { GridContainer } from "@repo/ui";
 
 export function MainNavBar() {
   return (
-    <GridContainer className="bg-turquoise-dark">
+    <GridContainer className="bg-turquoise-dark" children={undefined}>
       <div className="flex items-center justify-between py-4">
         {/* Left Section: Home Button */}
         <div className="flex items-center space-x-4">

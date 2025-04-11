@@ -10,11 +10,11 @@
   },
   "dependencies": {
     "@ama-pt/agora-design-system": "^2.2.3",
+    "@repo/ui": "*",
     "next": "15.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "tailwind-merge": "^3.0.2",
-    "@repo/ui": "*"
+    "tailwind-merge": "^3.0.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

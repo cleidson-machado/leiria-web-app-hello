@@ -1,16 +1,109 @@
-/* Adicione uma classe local para o estilo do parágrafo */
-.paragraph {
-  font-size: 16px;
-  color: #666;
+/* Layout container */
+.layoutContainer {
+  display: flex;
+  min-height: 100vh;
 }
 
-.container {
-  padding: 20px;
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+/* Sidebar styles */
+.sidebar {
+  background-color: #f8f9fa;
+  border-right: 1px solid #dee2e6;
+  transition: width 0.3s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.sidebar.expanded {
+  width: 250px;
+}
+
+.sidebar.collapsed {
+  width: 100px;
+}
+
+/* Sidebar header */
+.sidebarHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  transition: opacity 0.3s ease;
+}
+
+.toggleButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.toggleButton:hover {
+  background-color: #e9ecef;
+}
+
+/* Sidebar navigation */
+.sidebarNav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #333;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  transition:
+    background-color 0.2s,
+    opacity 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.navLink:hover {
+  background-color: #e9ecef;
+}
+
+.showText {
+  opacity: 1;
+}
+
+.hideText {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Main content */
+.mainContent {
+  flex: 1;
+  padding: 2rem;
+}
+
+/* Page-specific styles */
+.pageContainer {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .heading {
-  color: #333;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.paragraph {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.5;
 }

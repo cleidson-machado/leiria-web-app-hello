@@ -5,10 +5,11 @@ import Link from "next/link";
 import styles from "./styles.module.css";
 
 const menuItems = [
-  { label: "Bottons", href: "/dashboard1" },
-  { label: "Calendars", href: "/dashboard2" },
-  { label: "Dropdowns", href: "/dashboard3" },
-  { label: "Inputs", href: "/dashboard4" },
+  { label: "Previa-Figma", href: "/" },
+  { label: "Bottons", href: "/button" },
+  { label: "Calendars", href: "/calendar" },
+  { label: "Dropdowns", href: "/dropdown" },
+  { label: "Inputs", href: "/input" },
 ];
 
 export default function AgoraOverViewLayout({

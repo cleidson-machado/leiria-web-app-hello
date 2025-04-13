@@ -1,11 +1,11 @@
-import { PersonalGridContainer } from "@repo/ui";
 import Image from "next/image";
+import { GridContainer } from "../GridContainer";
 import Link from "next/link";
 
 export function HeaderCuston() {
   return (
     <header>
-      <PersonalGridContainer className="bg-turquoise-base">
+      <GridContainer className="bg-turquoise-base">
         <div className="flex items-center justify-between py-6">
           {/* Left Section: Images */}
           <div className="flex items-center p-8 space-x-4 rounded">
@@ -45,7 +45,7 @@ export function HeaderCuston() {
             />
           </nav>
         </div>
-      </PersonalGridContainer>
+      </GridContainer>
     </header>
   );
 }

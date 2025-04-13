@@ -1,6 +1,9 @@
 "use client";
 
-import { Button } from "@repo/ui/agora-components/buttons/agora-button";
+import AgoraOverViewLayout from "./(pages)/layout";
+import styles from "./(pages)/styles.module.css";
+
+//PAGE THAT REUSE THE LAYOUT CREATE INSIDE THE APP... NOTE THE ROOT LAYOUT...
 
 export default function Home() {
   const handleClick = () => {
@@ -8,13 +11,14 @@ export default function Home() {
   };
 
   return (
-    <>
-      <div>Show Case</div>
-      <div>
-        <Button className="custom-class" onClick={handleClick}>
-          Click Me
-        </Button>
+    <AgoraOverViewLayout>
+      <div className={styles.pageContainer}>
+        <h1 className={styles.heading}>Preview</h1>
+        <p className={styles.paragraph}>
+          Bem-vindos a Página de Demostração dos componentes compartilhados -
+          Agora Ds
+        </p>
       </div>
-    </>
+    </AgoraOverViewLayout>
   );
 }

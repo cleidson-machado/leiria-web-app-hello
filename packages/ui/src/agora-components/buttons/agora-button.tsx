@@ -5,11 +5,21 @@ import { twMerge } from "tailwind-merge";
 export interface ButtonProps {
   className?: string;
   children: React.ReactNode;
+  onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
-export const Button = ({ className, children, ...props }: ButtonProps) => {
+export const Button = ({
+  className,
+  children,
+  onClick,
+  ...props
+}: ButtonProps) => {
   return (
-    <AgoraButton className={twMerge("default-styles", className)} {...props}>
+    <AgoraButton
+      className={twMerge("default-styles", className)}
+      onClick={onClick}
+      {...props}
+    >
       {children}
     </AgoraButton>
   );

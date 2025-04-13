@@ -5,7 +5,8 @@ import Link from "next/link";
 import styles from "./styles.module.css";
 
 const menuItems = [
-  { label: "Previa-Figma", href: "/" },
+  { label: "Root Path", href: "/" },
+  { label: "Home Ag OverView", href: "/agora-overview" },
   { label: "Bottons", href: "/button" },
   { label: "Calendars", href: "/calendar" },
   { label: "Dropdowns", href: "/dropdown" },

@@ -1,6 +1,6 @@
 "use client";
 
-import { InputDate, InputDateProps } from "@ama-pt/agora-design-system";
+import { InputDate } from "@ama-pt/agora-design-system";
 import React, { ChangeEvent } from "react";
 
 const defaultLabels = {

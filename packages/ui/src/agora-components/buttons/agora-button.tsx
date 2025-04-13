@@ -8,12 +8,7 @@ export interface ButtonProps {
   onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
-export const Button = ({
-  className,
-  children,
-  onClick,
-  ...props
-}: ButtonProps) => {
+const Button = ({ className, children, onClick, ...props }: ButtonProps) => {
   return (
     <AgoraButton
       className={twMerge("default-styles", className)}
@@ -24,3 +19,5 @@ export const Button = ({
     </AgoraButton>
   );
 };
+
+export { Button };

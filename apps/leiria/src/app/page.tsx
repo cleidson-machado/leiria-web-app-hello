@@ -10,12 +10,6 @@ export default function Home() {
     <>
       <HeaderCuston />
       <MainNavBar />
-      <div>
-        EXEMPLO TEMP USO BTN AGORA COM USO DA DEPENÊNCIA DO PROJETO TURBO
-      </div>
-      <div>
-        <Button className="custom-class">Click Me</Button>
-      </div>
     </>
   );
 }

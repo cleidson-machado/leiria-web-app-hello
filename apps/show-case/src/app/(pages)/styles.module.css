@@ -107,3 +107,117 @@
   color: #666;
   line-height: 1.5;
 }
+
+.subheading {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  color: #2d3a4a;
+}
+
+.button {
+  margin-top: 2rem;
+  padding: 0.8rem 1.6rem;
+  background-color: #0057b8;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.button:hover {
+  background-color: #003d7a;
+}
+
+.alertInfo {
+  background: #fff8e1;
+  color: #333;
+  border-radius: 6px;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+.alertIcon {
+  margin-right: 0.7rem;
+  font-size: 1.3rem;
+}
+.subheading {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  color: #1a2a4a;
+  font-weight: 600;
+}
+.Code PlaygroundBox {
+  background: #fff;
+  border: 1px solid #e3e7ef;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  min-height: 90px;
+}
+.codeBlock {
+  background: #f4f6fa;
+  border-radius: 6px;
+  padding: 1rem;
+  font-family: "Fira Mono", "Consolas", monospace;
+  font-size: 0.98rem;
+  margin-bottom: 2rem;
+  overflow-x: auto;
+}
+.list {
+  margin-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.selectedDateBox {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.selectedDateText {
+  font-size: 1.1rem;
+  color: #2d3a4a;
+  font-weight: 500;
+}
+
+.selectedDateValue {
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #0057b8;
+}
+
+.calendarBox {
+  background: #fff;
+  border: 1px solid #e3e7ef;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  min-height: 90px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dropdownBox {
+  background: #fff;
+  border: 1px solid #e3e7ef;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 90px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
